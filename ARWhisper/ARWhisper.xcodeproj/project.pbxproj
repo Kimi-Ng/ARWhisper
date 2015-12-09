@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E32DB4761C187B750043B017 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DB4751C187B750043B017 /* main.m */; };
+		E32DB4791C187B750043B017 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DB4781C187B750043B017 /* AppDelegate.m */; };
+		E32DB47C1C187B750043B017 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DB47B1C187B750043B017 /* ViewController.m */; };
+		E32DB47F1C187B750043B017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E32DB47D1C187B750043B017 /* Main.storyboard */; };
+		E32DB4811C187B750043B017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E32DB4801C187B750043B017 /* Assets.xcassets */; };
+		E32DB4841C187B750043B017 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E32DB4821C187B750043B017 /* LaunchScreen.storyboard */; };
+		E32DB48F1C187B760043B017 /* ARWhisperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DB48E1C187B760043B017 /* ARWhisperTests.m */; };
+		E32DB49A1C187B760043B017 /* ARWhisperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E32DB4991C187B760043B017 /* ARWhisperUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E32DB48B1C187B760043B017 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E32DB4691C187B750043B017 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E32DB4701C187B750043B017;
+			remoteInfo = ARWhisper;
+		};
+		E32DB4961C187B760043B017 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E32DB4691C187B750043B017 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E32DB4701C187B750043B017;
+			remoteInfo = ARWhisper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E32DB4711C187B750043B017 /* ARWhisper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARWhisper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E32DB4751C187B750043B017 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E32DB4771C187B750043B017 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E32DB4781C187B750043B017 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E32DB47A1C187B750043B017 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E32DB47B1C187B750043B017 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E32DB47E1C187B750043B017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E32DB4801C187B750043B017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E32DB4831C187B750043B017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E32DB4851C187B750043B017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E32DB48A1C187B760043B017 /* ARWhisperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARWhisperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E32DB48E1C187B760043B017 /* ARWhisperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARWhisperTests.m; sourceTree = "<group>"; };
+		E32DB4901C187B760043B017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E32DB4951C187B760043B017 /* ARWhisperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARWhisperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E32DB4991C187B760043B017 /* ARWhisperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARWhisperUITests.m; sourceTree = "<group>"; };
+		E32DB49B1C187B760043B017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E32DB46E1C187B750043B017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E32DB4871C187B760043B017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E32DB4921C187B760043B017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E32DB4681C187B750043B017 = {
+			isa = PBXGroup;
+			children = (
+				E32DB4731C187B750043B017 /* ARWhisper */,
+				E32DB48D1C187B760043B017 /* ARWhisperTests */,
+				E32DB4981C187B760043B017 /* ARWhisperUITests */,
+				E32DB4721C187B750043B017 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E32DB4721C187B750043B017 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E32DB4711C187B750043B017 /* ARWhisper.app */,
+				E32DB48A1C187B760043B017 /* ARWhisperTests.xctest */,
+				E32DB4951C187B760043B017 /* ARWhisperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E32DB4731C187B750043B017 /* ARWhisper */ = {
+			isa = PBXGroup;
+			children = (
+				E32DB4771C187B750043B017 /* AppDelegate.h */,
+				E32DB4781C187B750043B017 /* AppDelegate.m */,
+				E32DB47A1C187B750043B017 /* ViewController.h */,
+				E32DB47B1C187B750043B017 /* ViewController.m */,
+				E32DB47D1C187B750043B017 /* Main.storyboard */,
+				E32DB4801C187B750043B017 /* Assets.xcassets */,
+				E32DB4821C187B750043B017 /* LaunchScreen.storyboard */,
+				E32DB4851C187B750043B017 /* Info.plist */,
+				E32DB4741C187B750043B017 /* Supporting Files */,
+			);
+			path = ARWhisper;
+			sourceTree = "<group>";
+		};
+		E32DB4741C187B750043B017 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E32DB4751C187B750043B017 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E32DB48D1C187B760043B017 /* ARWhisperTests */ = {
+			isa = PBXGroup;
+			children = (
+				E32DB48E1C187B760043B017 /* ARWhisperTests.m */,
+				E32DB4901C187B760043B017 /* Info.plist */,
+			);
+			path = ARWhisperTests;
+			sourceTree = "<group>";
+		};
+		E32DB4981C187B760043B017 /* ARWhisperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E32DB4991C187B760043B017 /* ARWhisperUITests.m */,
+				E32DB49B1C187B760043B017 /* Info.plist */,
+			);
+			path = ARWhisperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E32DB4701C187B750043B017 /* ARWhisper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E32DB49E1C187B760043B017 /* Build configuration list for PBXNativeTarget "ARWhisper" */;
+			buildPhases = (
+				E32DB46D1C187B750043B017 /* Sources */,
+				E32DB46E1C187B750043B017 /* Frameworks */,
+				E32DB46F1C187B750043B017 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARWhisper;
+			productName = ARWhisper;
+			productReference = E32DB4711C187B750043B017 /* ARWhisper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E32DB4891C187B760043B017 /* ARWhisperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E32DB4A11C187B760043B017 /* Build configuration list for PBXNativeTarget "ARWhisperTests" */;
+			buildPhases = (
+				E32DB4861C187B760043B017 /* Sources */,
+				E32DB4871C187B760043B017 /* Frameworks */,
+				E32DB4881C187B760043B017 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E32DB48C1C187B760043B017 /* PBXTargetDependency */,
+			);
+			name = ARWhisperTests;
+			productName = ARWhisperTests;
+			productReference = E32DB48A1C187B760043B017 /* ARWhisperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E32DB4941C187B760043B017 /* ARWhisperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E32DB4A41C187B760043B017 /* Build configuration list for PBXNativeTarget "ARWhisperUITests" */;
+			buildPhases = (
+				E32DB4911C187B760043B017 /* Sources */,
+				E32DB4921C187B760043B017 /* Frameworks */,
+				E32DB4931C187B760043B017 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E32DB4971C187B760043B017 /* PBXTargetDependency */,
+			);
+			name = ARWhisperUITests;
+			productName = ARWhisperUITests;
+			productReference = E32DB4951C187B760043B017 /* ARWhisperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E32DB4691C187B750043B017 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Kimi;
+				TargetAttributes = {
+					E32DB4701C187B750043B017 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 2WFN6W43BY;
+					};
+					E32DB4891C187B760043B017 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 2WFN6W43BY;
+						TestTargetID = E32DB4701C187B750043B017;
+					};
+					E32DB4941C187B760043B017 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 2WFN6W43BY;
+						TestTargetID = E32DB4701C187B750043B017;
+					};
+				};
+			};
+			buildConfigurationList = E32DB46C1C187B750043B017 /* Build configuration list for PBXProject "ARWhisper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E32DB4681C187B750043B017;
+			productRefGroup = E32DB4721C187B750043B017 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E32DB4701C187B750043B017 /* ARWhisper */,
+				E32DB4891C187B760043B017 /* ARWhisperTests */,
+				E32DB4941C187B760043B017 /* ARWhisperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E32DB46F1C187B750043B017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E32DB4841C187B750043B017 /* LaunchScreen.storyboard in Resources */,
+				E32DB4811C187B750043B017 /* Assets.xcassets in Resources */,
+				E32DB47F1C187B750043B017 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E32DB4881C187B760043B017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E32DB4931C187B760043B017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E32DB46D1C187B750043B017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E32DB47C1C187B750043B017 /* ViewController.m in Sources */,
+				E32DB4791C187B750043B017 /* AppDelegate.m in Sources */,
+				E32DB4761C187B750043B017 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E32DB4861C187B760043B017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E32DB48F1C187B760043B017 /* ARWhisperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E32DB4911C187B760043B017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E32DB49A1C187B760043B017 /* ARWhisperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E32DB48C1C187B760043B017 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E32DB4701C187B750043B017 /* ARWhisper */;
+			targetProxy = E32DB48B1C187B760043B017 /* PBXContainerItemProxy */;
+		};
+		E32DB4971C187B760043B017 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E32DB4701C187B750043B017 /* ARWhisper */;
+			targetProxy = E32DB4961C187B760043B017 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E32DB47D1C187B750043B017 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E32DB47E1C187B750043B017 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E32DB4821C187B750043B017 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E32DB4831C187B750043B017 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E32DB49C1C187B760043B017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E32DB49D1C187B760043B017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E32DB49F1C187B760043B017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ARWhisper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.kiming.ARWhisper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E32DB4A01C187B760043B017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ARWhisper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.kiming.ARWhisper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E32DB4A21C187B760043B017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ARWhisperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.kiming.ARWhisperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARWhisper.app/ARWhisper";
+			};
+			name = Debug;
+		};
+		E32DB4A31C187B760043B017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ARWhisperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.kiming.ARWhisperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARWhisper.app/ARWhisper";
+			};
+			name = Release;
+		};
+		E32DB4A51C187B760043B017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ARWhisperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.kiming.ARWhisperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ARWhisper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E32DB4A61C187B760043B017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ARWhisperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.kiming.ARWhisperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ARWhisper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E32DB46C1C187B750043B017 /* Build configuration list for PBXProject "ARWhisper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E32DB49C1C187B760043B017 /* Debug */,
+				E32DB49D1C187B760043B017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E32DB49E1C187B760043B017 /* Build configuration list for PBXNativeTarget "ARWhisper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E32DB49F1C187B760043B017 /* Debug */,
+				E32DB4A01C187B760043B017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E32DB4A11C187B760043B017 /* Build configuration list for PBXNativeTarget "ARWhisperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E32DB4A21C187B760043B017 /* Debug */,
+				E32DB4A31C187B760043B017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E32DB4A41C187B760043B017 /* Build configuration list for PBXNativeTarget "ARWhisperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E32DB4A51C187B760043B017 /* Debug */,
+				E32DB4A61C187B760043B017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E32DB4691C187B750043B017 /* Project object */;
+}
